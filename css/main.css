@@ -1,4 +1,5 @@
 
+
 nav {
 background-color: #FFB347;
 width:100%;
@@ -8,7 +9,7 @@ padding:0;
 
 /*header*/
 nav ul{
-background-color: #FFB347;
+background-color: #FF3333;
 list-style-type: none;
 text-align: center;
 margin:0;
@@ -48,8 +49,8 @@ nav ul li a:visited {
 }
 
 body{
-	background-color:  #FFFFFF;
-	font-family: 'SourceSansProLight', sans-serif;
+	background-color:  #E7E8D1;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin:0;
 	padding:0;
 }
