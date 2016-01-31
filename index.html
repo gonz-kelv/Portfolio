@@ -1,34 +1,149 @@
 <!Doctype html>
+
 <html lang='en'>
 
 <head>
-	<title> Kelvin Gonzales Portfolio </title>
+	
+	<title>Kelvin Gonzales Porfolio</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Get jquery library -->
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>	
 	
-<!-- Get jquery library -->
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	
+	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	-->
+		
 </head>
 
 <body>
-
-<!-- my Navigation -->
-<div class="Nav Top"><a id="NavButton1">Me</a></div>
-<div class="Nav Left"><a id="NavButton2">Resume</a></div>
-<div class="Nav Right"><a id="NavButton3">Work</a></div>
-<div class="Nav Bottom"><a id="NavButton4">Contact</a></div>
-
-<!-- Content hidden -->
-<div class="Content">Some content that will be hidden</div>
-
+		<nav>
+			<div class="Navigation">
+				<!-- my Navigation -->	
+				<div class="Nav Top"><a id="NavButton1" href="#Me">Me</a></div>
+				<div class="Nav Left"><a id="NavButton2" href="#Resume">Resume</a></div>
+				<div class="Nav Right"><a id="NavButton3" href="#Work">Work</a></div>
+				<div class="Nav Bottom"><a id="NavButton4" href="#Contact">Contact</a></div>
+			</div>
+		</nav>
+		
+		<div class="Corner1">Click on the corners to return</div>
+		<div class="Corner2"></div>
+		<div class="Corner3"></div>
+		<div class="Corner4"></div>
+		
+		<div class="Content">
+			<!-- Content hidden -->
+			
+				<div class="Content-Me">
+					<div class="Me-Details">
+						<section id="Me">
+							<h1 class="Red">Kelvin Gonzales</h1>
+						</section>
+						<h2> DRIVEN, CREATIVE, TECHNICAL</h2>
+						<p>Developer To Be</p>
+						<p>I am an aspiring developer. I feel like a detective when I code. There is a problem that I need to solve and I am looking for the solution. Debugging leaves trails that will lead me to a clue on how to solve the case. In the end, its rewarding when I get the job done. Case closed!<p>
+						<p>I love the world of technology. I am fascinated how it can help people do things more efficient. However, it can become a double edge sword and make us very inefficient hehe.</p>
+						<p>Im interested in video game development as I am a gamer.</p>
+					</div>
+				</div>
+			
+				<div class="Content-Work">
+					<div class="Work-Details">
+						<section id="Work">
+							<h1 class="Red">Work</h1>
+						</section>
+						<div class="Details-Buttons">
+							<div class="Details-ButtonsA"><a id="Details-Game">Game</a></div>
+							<div class="Details-ButtonsB"><a id="Details-App">App</a></div>
+							<div class="Details-ButtonsC"><a id="Details-Web">Website</a></div>
+						</div>
+						<div class="Details-rightA">
+							<h2 class="Red">Game: First Person Fighting Game</h2>
+							<p class="Details-bodyA">I was the Gameplay Programmer of this project. I suggested to create a fighting game but in a First-Person View. This explores a unique interation and UI for figthing in videogame. I created a Hitbox system using Colliders available in Unity. I implemented a simple User interface by having a common health bar located in the top and a red screen flashing on the screen if User gets hit from the enemy. </p>
+							<img class="Details-imgA" src="img/f1.png" alt="How the game looks like">
+							<p class="Details-imgA">This minimalist design was to avoid further clutter on the UI to focus more on the player's opponent.</p>
+							<img class="Details-imgB" src="img/f4A.png" alt="Hitbox system">
+							<p class="Details-imgB">This is the structure of the hitbox system I implemented. The Sphere Colliders was for where the user are able to hurt opponents except the head. Then the Box Colliders are the hurt boxes. This setup was able to give enough feedback to provide for players if they hit the opponent or not.</p>
+						</div>
+						<div class="Details-leftB">
+							<h2 class="Red">App: 3D Weather App</h2>
+							<img src="img/w3.png" alt="Weather app showing my location's weather" width="100%">
+							<p>I was one of the developer in the project. I was in charge of the 3D environment in our weather app. We created this app using AngularJS as our framework. This follows the Model, View, and Controller model. This modular method help divide responsibilities for the code. Using three.js, I created a terrain. This terrain then changes its height to mimic motion like trees in the green terrain area.</p>
+							<img class="Details-imgB" src="img/w4.png" alt="Showing the particles used in the app">
+							<p class="Details-bodyB">Used the particles in Three.js to create a 3D space with these images. The terrain rotates around so its not a static terrain in the screen.</p>
+						</div>						
+					</div>
+				</div>
+				
+			
+				<div class="Content-Contact">
+					<div class="Contact-Details">
+						<section id="Contact">
+							<h1 class="Red">Contact</h1>
+						</section>
+						<div class="Contact-Email">
+							<p>Send an email to me:</p>
+							<h3>kelv.gonzales@gmail.com</h3>
+							<img class="Gmail-Icon" src="img/gmail.png" alt="Gmail icon">
+						</div>
+						<div class="Contact-Middle">
+							<div class="Contact-Tweet">
+								<div class="Tweet-text">
+									<p>Send me a Tweet:</p>
+									<h3>@lcelvin</h3>
+								</div>
+								<div class="Tweet-Icon">
+									<img src="img/tweet.png" alt="Twitter icon">
+								</div>
+							</div>
+							<div class="Contact-Github">
+								<div  class="Github-Icon">
+									<img src="img/GitHub-Mark-120px-plus.png" alt="Github Logo">
+								</div>
+								<div class="Github-Text">
+									<p>Check out my repo:</p>
+									<h3>gonz-kelv</h3>
+								</div>
+							</div>
+						</div>
+						<div class="Contact-Linkedin">
+							<img class="Linkedin-Icon" src="img/In-2CRev-128px-TM.png" alt="Linkedin">
+							<h3>Connect with me:</h3>
+							<h3>kelv.gonzales@gmail.com</h3>
+						</div>
+					</div>
+				</div>
+			
+				<div class="Content-Resume">
+					<div class="Resume-Details">
+						<section id="Resume">
+							<h1 class="Red">Resume</h1>
+						</section>
+						<h3>School:</h3>
+						<p>Simon Fraser University Bachelors of Science in Interactive Arts and Technology</p>
+						<h3>Skills:</h3>
+						<p>I have experiences with languages like JavaScript,CSS,HTML,PHP,Java, and C++</p>
+						<p>I have used Sotwares like Unity, Adobe Illustrator, Maya, Adobe Photoshop, and SolidWorks.</p>
+						<h3>Exp:</h3>
+						<p>Student Network Engineer</p>
+						<p>First line of Support. Deploy and install Windows machines. Troubleshoot Windows error and failures. Maintain backup operations.</p>
+					</div>
+				</div>
+			
+		</div>
+	<!--
+		 Use JS code to layout it out for animation. If JS is disable the contents would be fine
+	-->
+	<script src="js/prekscript.js"></script>
+	
+	<!-- JS Code -->
+	<!-- <script src="js/kscript.js"></script>
+	-->
 </body>
-
-<!-- Personalized js code -->
-<script src="js/kscript.js"></script>
 
 </html>
