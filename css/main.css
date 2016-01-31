@@ -1,0 +1,486 @@
+/*
+  HTML Elements
+*/
+
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	width:100%;
+	height:100%;
+	display:block;
+	background-color:  #FFF;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: .1em;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	position:relative;
+	z-index: 1;
+}
+
+.Navigation{
+	width:100%;
+	display:block;
+	position:absolute;
+	z-index: 3;
+	color:#FFF;
+	font-size:1.5em;
+}
+
+.Content{
+	width:80%;
+	margin:0 auto;
+	display:block;
+	z-index: 2;
+}
+
+.Color-Bleed{
+	width:100%;
+	height: 100%;
+	background-color:#8E001C;
+	display:block;
+	position:absolute;
+}
+
+.Corner1{
+	width:23%;
+	height:25%;
+	/*background-color: grey;*/
+	float:left;
+    padding-left:2%;
+	display:block;
+	position:fixed;
+	z-index:3;
+}
+
+.Corner2{
+	width:23%;
+	height:25%;
+	/*background-color: grey;*/
+	top:0;
+	right:0;
+	float:left;
+    text-align:right;
+    padding-right:2%;
+	display:block;
+	position:fixed;
+	z-index:3;
+}
+
+.Corner3{
+	width:25%;
+	height:25%;
+	/*background-color: grey;*/
+	left:0;
+	bottom:0;
+	float:left;
+	display:block;
+	position:fixed;
+	z-index:3;
+}
+
+.Corner4{
+	width:25%;
+	height:25%;
+	/*background-color: grey;*/
+	float:left;
+	display:block;
+	bottom:0;
+	right:0;
+	position:fixed;
+	z-index:3;
+}
+
+/*
+	Styling
+*/
+
+.Red{
+	color: #8E001C;
+}
+
+a{
+	text-decoration: none;
+	color:#FFF;
+}
+
+section{
+	padding-top:15%;
+}
+
+/* 
+	Navigation 
+*/
+
+#NavButton1{
+	/*background-color: #8E001C;*/
+	background-image: url("../img/controllerIcon.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding:70px 40px 50px 40px;
+	z-index: 2;
+}
+
+#NavButton2{
+	background-image: url("../img/controllerIcon2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding:30px 50px 30px 50px;
+	z-index: 2;
+}
+
+#NavButton3{
+	background-image: url("../img/controllerIcon3.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding:30px 70px 30px 60px;
+	z-index: 2;
+}
+
+#NavButton4{
+	background-image: url("../img/controllerIcon4.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding:50px 20px 70px 20px;
+	z-index: 2;
+}
+
+.icon{
+	position:absolute;
+	width:110px;
+	height:100px;
+	z-index:-1;
+}
+
+.Nav.Top{
+	width:100%;
+	display:block;
+	text-align:center;
+	position:fixed;
+	padding-top:2%;
+	top:0;
+}
+
+.Nav.Left{
+	width:5%;
+	float:left;
+	display:block;
+	margin-top:25%;
+	text-align:center;
+	position:fixed;
+	left:0;
+}
+
+.Nav.Right{
+	width:5%;
+	float:right;	
+	display:block;
+	margin-top:25%;
+	margin-left:65%;
+	margin-right:5%;
+	text-align:center;
+	position:fixed;
+	right:0;
+}
+
+.Nav.Bottom{
+	width:100%;
+	display:block;
+	text-align:center;
+	position:fixed;
+	padding-bottom:2%;
+	bottom:0;
+}
+
+/*
+	Me Page
+*/
+
+.Content-Me{
+	width:100%;
+	margin: 0 auto;
+	padding-top:15%;
+	padding-bottom:15%;
+	float:left;
+	display:block;
+	text-align: center;
+	/*background-color: grey;*/
+
+}
+
+.Me-Details{
+	width:80%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+/*
+	Work Page
+*/
+
+.Content-Work{
+	width:100%;
+	float:left;
+	display:block;
+	text-align: center;
+	/*background-color: grey;*/
+}
+
+.Work-Details{
+	width:80%;
+	margin: 0 auto;
+	text-align: left;
+	display:block;
+}
+
+.Details-rightA{
+	width:100%;
+	margin-top:10%;
+	float:left;
+	display:block;
+}
+
+.Details-leftB{
+	width:100%;
+	margin-top:10%;
+	text-align: right;
+	float:left;
+	display:block;
+}
+
+.Details-Buttons{
+	width:100%;
+	float:left;
+	display:block;
+}
+
+#Details-Game{
+	float:left;
+	display:block;
+	text-align:center;
+	font-size: 3em;
+	color:#FFF;
+}
+
+#Details-App{
+	float:left;
+	display:block;
+	text-align:center;
+	font-size:3em;
+	color:#FFF;
+}
+
+#Details-Web{
+	float:left;
+	display:block;
+	text-align:center;
+	font-size: 3em;
+	color:#FFF;
+}
+
+
+.Details-ButtonsA{
+	width:15%;
+	padding:2%;
+	padding-left:5%;
+	margin-left:50%;
+	float:left;
+	display:block;
+	/*background-color:#8E001C;*/
+	background-image: url("../img/controllerIcon3.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.Details-ButtonsB{
+	width:15%;
+	padding:2%;
+	padding-left:5%;
+	margin-right:50%;
+	float:right;
+	display:block;
+	background-image: url("../img/controllerIcon2.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.Details-ButtonsC{
+	width:15%;
+	padding:2%;
+	padding-left:5%;
+	margin-left:50%;
+	float:left;
+	display:block;
+	background-image: url("../img/controllerIcon3.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.Details-bodyA{
+	width:75%;
+	display:block;
+}
+
+.Details-imgA{
+	display:block;
+	margin-left:25%;
+}
+
+.Details-bodyB{
+	margin-left:50%;
+	text-align:right;
+	width:50%;
+	display:block;
+}
+
+.Details-imgB{
+	width:50%;
+	margin-left:50%;
+}
+
+/*
+	Contact page
+*/
+
+.Content-Contact{
+	width:100%;
+	padding-top:15%;
+	margin: 0 auto;
+	float:left;
+	display:block;
+	text-align: center;
+	/*background-color: grey;*/
+}
+
+.Contact-Details{
+	width:100%;
+	margin: 0 auto;
+	text-align: left;
+	padding-top:15%;
+	padding-bottom:15%;
+}
+
+.Contact-Tweet{
+	display:inline-block;
+	width:50%;
+	text-align: center;
+}
+
+.Tweet-Icon{
+	width:50%;
+	float:left;
+	display:block;
+}
+
+.Tweet-Icon img{
+	padding:5%;
+	width:50px;
+	height:50px;
+	display: block;
+	margin:0 auto;
+}
+
+.Tweet-text{
+	width:50%;
+	float:left;
+	display:block;
+	text-align: right;
+}
+
+.Contact-Email{
+	display:inline-block;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.Gmail-Icon{
+	width:50px;
+	height:50px;
+}
+
+.Contact-Github{
+	display:inline-block;
+	width:49%;
+	text-align:center;
+}
+
+.Github-Icon{
+	width:50%;
+	float:left;
+	margin:0 auto;
+	display:block;
+}
+
+.Github-Icon img{
+	padding:5%;
+	width:50px;
+	height:50px;
+}
+
+.Github-Text{
+	width:50%;
+	float:left;
+	display:block;
+	text-align: left;
+}
+
+.Contact-Middle{
+	width:100%;
+	margin:0 auto;
+	display:block;
+}
+
+.Contact-Linkedin{
+	display:inline-block;
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.Linkedin-Icon{
+	
+	width:50px;
+	height:50px;
+}
+
+/*
+	Resume Page
+*/
+
+.Content-Resume{
+	width:100%;
+	margin: 0 auto;
+	padding-top:15%;
+	padding-bottom:15%;
+	float:left;
+	display:block;
+	text-align: center;
+	/*background-color: grey;*/
+}
+
+.Resume-Details{
+	width:80%;
+	padding-top:15%;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom:5%;
+}
+
+@media(max-width: 1400px){
+	.Nav.Right{
+		margin-right:10%;
+	}
+	
+}
+
+@media(max-width: 800px){
+	.Nav.Right{
+		margin-right:30%;
+	}
+	
+	
+}
