@@ -1,6 +1,6 @@
 # Who
 
-Kelvin Gonzales 
+Kelvin Gonzales
 
 Developer To Be.
 
@@ -16,4 +16,4 @@ http://gonz-kelv.github.io/Portfolio/
 
 # Future Implementation
 
-Still working in improving the UI. Co-Designing with Dhruv Narang. Check out his site, http://www.dhruvnarang.com/
+Still working on improving the UI. Co-Designing with Dhruv Narang. Check out his site, http://www.dhruvnarang.com/
