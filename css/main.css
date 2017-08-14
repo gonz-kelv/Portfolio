@@ -8,7 +8,7 @@ html{
 }
 
 body{
-	width:80%;
+	width:90%;
 	height:100%;
 	display:block;
 	background-color:  #FFF;
@@ -55,10 +55,11 @@ a{
 
 .Contact-Details{
 	width:100%;
-	margin: 0 auto;
-	text-align: left;
-	padding-top:15%;
-	padding-bottom:15%;
+	display:inline-block;
+}
+
+.Contact-Details h3{
+	padding-left:80px;
 }
 
 .Contact-Tweet{
@@ -68,7 +69,6 @@ a{
 }
 
 .Tweet-Icon{
-	width:50%;
 	float:left;
 	display:block;
 }
@@ -96,9 +96,18 @@ a{
 }
 
 .Gmail-Icon{
+	float:left;
+	display:block;
+}
+
+.Gmail-Icon img{
+	padding:5%;
 	width:50px;
 	height:50px;
+	display: block;
+	margin:0 auto;
 }
+
 
 .Contact-Github{
 	display:inline-block;
@@ -107,7 +116,6 @@ a{
 }
 
 .Github-Icon{
-	width:50%;
 	float:left;
 	margin:0 auto;
 	display:block;
@@ -132,19 +140,6 @@ a{
 	display:block;
 }
 
-.Contact-Linkedin{
-	display:inline-block;
-	width:100%;
-	margin:0 auto;
-	text-align: center;
-}
-
-.Linkedin-Icon{
-	
-	width:50px;
-	height:50px;
-}
-
 /*
 	Resume Page
 */
@@ -166,4 +161,8 @@ a{
 	margin: 0 auto;
 	text-align: left;
 	padding-bottom:5%;
+}
+
+footer{
+	height:5%;
 }
