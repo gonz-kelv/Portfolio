@@ -17,6 +17,7 @@ body{
 	color: #000000;
 	margin: 0 auto;
 	padding: 0;
+	padding-top: 2%;
 }
 
 /*
@@ -165,4 +166,21 @@ a{
 
 footer{
 	height:5%;
+}
+
+/*
+	Responsiveness
+*/
+
+@media (min-width: 1024px) {
+	body{
+		width:75%;
+	}
+}
+
+
+@media (min-width: 1280px) {
+	body{
+		width:60%;
+	}
 }
