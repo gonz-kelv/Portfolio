@@ -174,7 +174,6 @@ footer{
 }
 
 /*
-<<<<<<< HEAD
 	Media Queries
 */
 
@@ -199,10 +198,11 @@ footer{
 @media only screen and (max-width: 920px){
 	body{
 		width:90%;	
-=======
-	Responsiveness
+	}
+}
+	/*
+		Responsiveness
 */
-
 @media (min-width: 1024px) {
 	body{
 		width:75%;
@@ -213,6 +213,5 @@ footer{
 @media (min-width: 1280px) {
 	body{
 		width:60%;
->>>>>>> 6818b608b664d60377675e0b1cd2811fdaa028bc
 	}
 }
