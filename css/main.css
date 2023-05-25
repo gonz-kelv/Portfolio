@@ -15,7 +15,7 @@ body{
 	font-family: 'Source Sans Pro Light', sans-serif;
 	font-weight: 300;
 	letter-spacing: .1em;
-	color: #8E3B33;
+	color: #be372b;
 	margin: 0 auto;
 	padding: 0;
 	padding-top: 2%;
@@ -43,7 +43,7 @@ a{
 }
 
 h3{
-	color:#4f5047;
+	color:#8a8b7c;
 }
 
 /*
@@ -170,6 +170,15 @@ h3{
 
 footer{
 	height:5%;
+	text-align: center;
+	position: relative;
+}
+
+footer div{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
 }
 
 /*
