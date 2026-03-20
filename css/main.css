@@ -1,226 +1,45 @@
-/*
-  HTML Elements
-*/
-
-html{
-	width:100%;
-	height:100%;
+/* Keep your original portfolio palette while preserving layout */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; min-height: 100%; }
+body {
+  background: #1A1A1A;
+  color: #E0E0E0;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 10px;
+  letter-spacing: .02em;
 }
-
-body{
-	width:40%;
-	height:100%;
-	display:block;
-	background-color:  #1A1A1A;
-	font-family: 'Source Sans Pro Light', sans-serif;
-	font-weight: 300;
-	letter-spacing: .1em;
-	color: #E0E0E0;
-	margin: 0 auto;
-	padding: 0;
-	padding-top: 2%;
+.page-wrap {
+  width: min(950px, 95%);
+  margin: 0 auto;
+  background: #111;
+  border: 1px solid #2f2f2f;
+  border-radius: 12px;
+  padding: 16px;
 }
-
-/*
-	Styling
-*/
-
-.Htitle{
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #E74C3C;
-}
-
-a{
-	text-decoration: none;
-	color:#E0E0E0;
-}
-
-.icon{
-	position:absolute;
-	width:110px;
-	height:100px;
-	z-index:-1;
-}
-
-h3{
-	color:#FF6F61;
-}
-
-/*
-	Contact page
-*/
-
-.Content-Contact{
-	width:100%;
-	padding-top:15%;
-	margin: 0 auto;
-	float:left;
-	display:block;
-	text-align: center;
-}
-
-.Contact-Details{
-	width:100%;
-	display:inline-block;
-}
-
-.Contact-Details h3{
-	padding-left:80px;
-}
-
-.Contact-Tweet{
-	display:inline-block;
-	width:50%;
-	text-align: center;
-}
-
-.Tweet-Icon{
-	float:left;
-	display:block;
-}
-
-.Tweet-Icon img{
-	padding:5%;
-	width:50px;
-	height:50px;
-	display: block;
-	margin:0 auto;
-}
-
-.Tweet-text{
-	width:50%;
-	float:left;
-	display:block;
-	text-align: right;
-}
-
-.Contact-Email{
-	display:inline-block;
-	width:100%;
-	margin:0 auto;
-	text-align:center;
-}
-
-.Gmail-Icon{
-	float:left;
-	display:block;
-}
-
-.Gmail-Icon img{
-	padding:5%;
-	width:50px;
-	height:50px;
-	display: block;
-	margin:0 auto;
-}
-
-
-.Contact-Github{
-	display:inline-block;
-	width:49%;
-	text-align:center;
-}
-
-.Github-Icon{
-	float:left;
-	margin:0 auto;
-	display:block;
-}
-
-.Github-Icon img{
-	padding:5%;
-	width:50px;
-	height:50px;
-}
-
-.Github-Text{
-	width:50%;
-	float:left;
-	display:block;
-	text-align: left;
-}
-
-.Contact-Middle{
-	width:100%;
-	margin:0 auto;
-	display:block;
-}
-
-/*
-	Resume Page
-*/
-
-.Content-Resume{
-	width:100%;
-	margin: 0 auto;
-	padding-top:15%;
-	padding-bottom:15%;
-	float:left;
-	display:block;
-	text-align: center;
-}
-
-.Resume-Details{
-	width:80%;
-	padding-top:15%;
-	margin: 0 auto;
-	text-align: left;
-	padding-bottom:5%;
-}
-
-footer{
-	height:5%;
-	text-align: center;
-	position: relative;
-}
-
-footer div{
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%, -50%);
-}
-
-/*
-	Media Queries
-*/
-
-@media only screen and (max-width: 1920px){
-	body{
-		width:50%;	
-	}
-}
-
-@media only screen and (max-width: 1600px){
-	body{
-		width:60%;	
-	}
-}
-
-@media only screen and (max-width:1200px){
-	body{
-		width:80%;	
-	}
-}
-
-@media only screen and (max-width: 920px){
-	body{
-		width:90%;	
-	}
-}
-
-/*
-	Responsiveness
-*/
-@media (min-width: 1024px) {
-	body{
-		width:75%;
-	}
-}
-
-
-@media (min-width: 1280px) {
-	body{
-		width:60%;
-	}
-}
+.site-header { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+.site-header img { width: 80px; height: 80px; border-radius: 50%; border: 2px solid #E74C3C; object-fit: cover; }
+.eyebrow { margin: 0; color: #FF6F61; font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.site-header h1 { margin: 0; font-size: 2rem; color: #E74C3C; }
+.byline { margin: 4px 0 0; color: #DADADA; }
+.site-nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+.site-nav a { color: #E0E0E0; text-decoration: none; font-weight: 500; padding: 6px 10px; border: 1px solid #2f2f2f; border-radius: 8px; background: #222; transition: .2s ease; }
+.site-nav a:hover { background: #E74C3C; color: #111; border-color: #E74C3C; }
+main { display: grid; gap: 12px; }
+.panel { background: #1f1f1f; border: 1px solid #2f2f2f; border-radius: 10px; padding: 12px; }
+h2 { margin: 0 0 8px; color: #E74C3C; }
+h3 { color: #FF6F61; margin: 0 0 6px; }
+p { margin: 6px 0; }
+.card-grid { display: grid; gap: 10px; }
+.card-grid article { border: 1px solid #2f2f2f; border-radius: 8px; background: #252525; padding: 10px; }
+.meta { color: #B0B0B0; margin: 0 0 8px; }
+.grid { display: grid; gap: 8px; }
+.cols-2 { grid-template-columns: repeat(auto-fit, minmax(190px,1fr)); }
+.contact-grid { display: grid; gap: 8px; }
+.contact-item { display: flex; align-items: center; gap: 10px; border: 1px solid #2f2f2f; padding: 10px; border-radius: 10px; background: #202020; color: #F5F5F5; text-decoration: none; transition: border-color .2s ease, background .2s ease; }
+.contact-item img { width: 26px; height: 26px; }
+.contact-item div { line-height: 1.2; }
+.contact-item strong { color: #E74C3C; font-weight: 600; font-size: .95rem; }
+.contact-item:hover { border-color: #E74C3C; background: #2d2d2d; }
+footer { text-align: center; margin-top: 12px; color: #B8B8B8; font-size: 0.9rem; }
+@media (max-width: 760px) { .site-header { flex-direction: column; align-items: flex-start; } .page-wrap { padding: 10px; } .site-nav { margin-bottom: 6px; }}
