@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "connect": "^3.7.0",
-    "server": "^1.0.38"
+    "express": "^4.18.2"
   }
 }
